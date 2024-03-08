@@ -1,0 +1,45 @@
+.logo {
+  float: left;
+  height: 35px;
+  margin: 66px 24px 16px 0px; /* 修改 margin-top 为 66px */
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-layout-header {
+  color: white;
+}
+
+.ant-row-rtl .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.cartImg {
+  height: 120px;
+}
+
+.AvaterImg {
+  width: 200px;
+}
+
+.editable-row .ant-form-item-explain {
+  position: absolute;
+  top: 100%;
+  font-size: 12px;
+}
+
+.my-header {
+  color: white;
+}
+
+.my-title {
+  color: white;
+}
+.my-logo {
+  width: 50px;
+  margin-top: 28px;
+}
