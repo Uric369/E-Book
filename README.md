@@ -42,6 +42,7 @@
 ## 技术概述
 - Kafka 实现下订单消息队列
 - Transaction 保证下订单事务的原子性，实现异常回滚
+- WebSocket 向前端响应下订单结果
 - Redis 缓存数据库书籍信息，提高访问速度
 - Microservice 将后端分离为微服务，使用 Eureka Server 和 Eureka Client 构建 SpringBoot 微服务架构，实现服务解耦，使用 Gateway 进行路由
 - MongoDB 将用户头像转换为base64 字符串存入，实现数据库表分离
