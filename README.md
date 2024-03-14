@@ -45,7 +45,7 @@
 - WebSocket 向前端响应下订单结果
 - Redis 缓存数据库书籍信息，提高访问速度
 - Microservice 将后端分离为微服务，使用 Eureka Server 和 Eureka Client 构建 SpringBoot 微服务架构，实现服务解耦，使用 Gateway 进行路由
-- MongoDB 将用户头像转换为base64 字符串存入，实现数据库表分离
+- MongoDB 将书籍封面转换为base64 字符串存入，实现数据库表分离
 - Neo4j 为书籍添加标签，可供查询标签关系以及相似书籍查找
 - Nginx 构建集群，实现负载均衡
 - Docker 容器化后端
